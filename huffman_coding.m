@@ -30,19 +30,6 @@ for ii=1:n-1
     temp(l(1))=100;
 end
 
-% ii=n-1;
-% rows=find(X(:,ii)==10);
-% codeword(rows)=strcat(codeword(rows),'1');
-% rows=find(X(:,ii)==11);
-% codeword(rows)=strcat(codeword(rows),'0');
-% 
-% for ii=n-2:-1:1
-%     row11=find(X(:,ii)==11);
-%     row10=find(X(:,ii)==10);
-%     codeword(row10)=strcat(codeword(row11),'1');
-%     codeword(row11)=strcat(codeword(row11),'0');
-% end
-
 for ii=n-1:-1:1
     row11=find(X(:,ii)==11);
     row10=find(X(:,ii)==10);
