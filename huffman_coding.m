@@ -1,7 +1,7 @@
 function [ steps, code ] = huffman_coding( p )
 
 if sum(p) ~= 1
-    disp('Please enter proabilites which add up to 1')
+    disp('Please enter probabilites which add up to 1')
     return
 end
 
